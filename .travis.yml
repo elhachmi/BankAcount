@@ -14,5 +14,3 @@ jobs:
   include:
   - stage: test
     script: ./gradlew clean test
-
-

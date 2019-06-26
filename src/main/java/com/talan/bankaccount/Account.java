@@ -9,7 +9,7 @@ public class Account {
 
     protected Double balance = null;
 
-    ArrayList<Operation> operations = new ArrayList<Operation>();
+    protected ArrayList<Operation> operations = new ArrayList<Operation>();
 
     public Account(Double initialBalance) {
         this.number = this.generateNumber();
