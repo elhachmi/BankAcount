@@ -1,0 +1,9 @@
+box:
+  id: openjdk
+
+build:
+  steps:
+    - script:
+        name: run gradle
+        code: |
+          ./gradlew clean build

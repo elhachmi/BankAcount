@@ -1,0 +1,3 @@
+# BankAcount
+
+./gradlew clean build
